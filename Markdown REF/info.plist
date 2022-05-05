@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.github.y-muen.alfred-markdown-ref</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>2EB8A7FF-FAD0-431B-9C77-510CEC1FDA61</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>311EB980-AEF6-4E39-9946-0035E6ECD866</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>311EB980-AEF6-4E39-9946-0035E6ECD866</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A9FA120A-5F9F-472B-B07C-40ABBF8103E0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3E08B2A4-E37E-412C-926D-2BE568E33E63</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B069DF07-EAA8-4D94-9597-E9AB138FE252</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>82562D11-B5B0-4C00-893F-662BB252B4E6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BFA47E92-D501-4F13-92E5-79CD8330444F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A9FA120A-5F9F-472B-B07C-40ABBF8103E0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>82562D11-B5B0-4C00-893F-662BB252B4E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>263C25DF-095C-4B8D-8E9E-CB3B941790B6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AEE990F4-B6A6-4EC9-8BD2-85A8E3B2B67D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AEE990F4-B6A6-4EC9-8BD2-85A8E3B2B67D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>82562D11-B5B0-4C00-893F-662BB252B4E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B069DF07-EAA8-4D94-9597-E9AB138FE252</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BFA47E92-D501-4F13-92E5-79CD8330444F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BFA47E92-D501-4F13-92E5-79CD8330444F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9D843D4-2896-4A0D-A67F-FAB5F5DD9A21</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yoiduki &lt;y-muen&gt;</string>
+	<key>description</key>
+	<string>Modify link referance in markdown.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Markdown REF</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>31</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>O</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.brave.Browser</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>3E08B2A4-E37E-412C-926D-2BE568E33E63</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>query</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B069DF07-EAA8-4D94-9597-E9AB138FE252</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import sys
+import re
+import os
+from collections import defaultdict
+
+def conv2chr(num: int):
+    if num &lt;= 0:
+        raise ValueError
+    elif num &gt;= 64**3:
+        raise ValueError
+    
+    res = ""
+    while num &gt; 0:
+        num, res = num//64, chr(64+num%26) + res
+    
+    return res
+
+def get_last(buff:int, dic:dict):
+    buff += 1
+    keys = dic.keys()
+    while conv2chr(buff) in keys:
+        buff += 1
+    
+    return buff
+
+def get_links(text: str, start:int):
+    links = defaultdict(lambda: None)
+    p1 = re.compile("\[(.{1,3})\]")
+    res1=p1.findall(text)
+    i = start
+    for key in res1:
+        if links[key] is None:
+            value = f"{i}"
+            links[key] = i
+            i += 1
+    return links
+
+def get_modifyer(dic:dict):
+    buff = 1
+    modifyer = {}
+    for key in links.keys():
+        if key.isnumeric():
+            buff = get_last(buff, dic)
+            modifyer[key] = conv2chr(buff)
+    return modifyer
+
+def sort_ref(text: str):
+    p_ref = re.compile("^(\[(.+?)\]\: .+)$", re.MULTILINE)
+    refs=p_ref.findall(text)
+    for line, _ in refs:
+        text = text.replace(f"{line}", "")
+
+    text = text.strip()
+    text = re.sub("\n\n+", "\n\n", text)
+    text += "\n"
+
+    refs = sorted(refs, key=lambda x: int(x[1]))
+    for line, _ in refs:
+        text += f"\n{line}"
+        
+    return text
+
+# Get variable
+text=os.getenv('query')
+i=int(os.getenv('start'))
+
+# Modify numeric to alphabetic
+links = get_links(text, i)
+modifyer = get_modifyer(links)
+for key, value in modifyer.items():
+    text = text.replace(f"[{key}]",f"[{value}]")
+
+# Modify alphabetic to numeric
+links = get_links(text, i)
+for key, value in links.items():
+    text = text.replace(f"[{key}]",f"[{value}]")
+text = sort_ref(text)
+
+# Return result
+sys.stdout.write(text)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>BFA47E92-D501-4F13-92E5-79CD8330444F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>D9D843D4-2896-4A0D-A67F-FAB5F5DD9A21</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>mdref</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Refine Markdown REF</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2EB8A7FF-FAD0-431B-9C77-510CEC1FDA61</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>263C25DF-095C-4B8D-8E9E-CB3B941790B6</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>A9FA120A-5F9F-472B-B07C-40ABBF8103E0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>311EB980-AEF6-4E39-9946-0035E6ECD866</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>query</key>
+					<string>{clipboard}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>82562D11-B5B0-4C00-893F-662BB252B4E6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>start</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AEE990F4-B6A6-4EC9-8BD2-85A8E3B2B67D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Markdown REF
+Modify link referance in markdown.
+
+## Basic Usage
+With HotKey, convert selection and paste modified version.
+With Keyword, convert clipboard and paste modified version.
+Plese note that all of square brackets `[]` with length of contenxt text is less than 4 is recognized as ref.
+- `[A]`, `[11]`,`[A12]`: ref
+- `[AAAA]`, `[AA12]`, `[https://bra.bra]`: not ref
+
+```input.md
+This is sample[B] of this workflow[1].
+Some links[A] nomatter character[5].
+You don' have to spesicfy ref links[D].
+It skipps the corresponding number[C].
+This[AAAA] will be ignored.
+![alt text also need sufficient legth](https://imag.url)
+
+[5]: some url1
+[1]: some url2
+[A]: some url3
+[B]: some url4
+[C]: some url5
+```
+
+``` modified.md
+This is sample[1] of this workflow[2].
+Some links[3] nomatter character[4].
+You don' have to spesicfy ref links[5].
+It skipps the corresponding number[6].
+This[AAAA] will be ignored.
+![alt text also need sufficient legth](https://imag.url)
+
+[1]: some url4
+[2]: some url2
+[3]: some url3
+[4]: some url1
+[6]: some url5
+```
+
+## Spesify start number
+With Keyword, you can spesify start number (&gt;0).
+e.g. `mdref 3`.
+
+```modified-with-3.md
+This is sample[3] of this workflow[4].
+Some links[5] nomatter character[6].
+You don' have to spesicfy ref links[7].
+It skipps the corresponding number[8].
+This[AAAA] will be ignored.
+![alt text also need sufficient legth](https://imag.url)
+
+[3]: some url4
+[4]: some url2
+[5]: some url3
+[6]: some url1
+[8]: some url5
+```</string>
+	<key>uidata</key>
+	<dict>
+		<key>2EB8A7FF-FAD0-431B-9C77-510CEC1FDA61</key>
+		<dict>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>311EB980-AEF6-4E39-9946-0035E6ECD866</key>
+		<dict>
+			<key>xpos</key>
+			<integer>225</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
+		<key>3E08B2A4-E37E-412C-926D-2BE568E33E63</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>82562D11-B5B0-4C00-893F-662BB252B4E6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>480</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
+		<key>A9FA120A-5F9F-472B-B07C-40ABBF8103E0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>AEE990F4-B6A6-4EC9-8BD2-85A8E3B2B67D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>330</integer>
+		</dict>
+		<key>B069DF07-EAA8-4D94-9597-E9AB138FE252</key>
+		<dict>
+			<key>xpos</key>
+			<integer>480</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>BFA47E92-D501-4F13-92E5-79CD8330444F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>600</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>D9D843D4-2896-4A0D-A67F-FAB5F5DD9A21</key>
+		<dict>
+			<key>xpos</key>
+			<integer>795</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>start</key>
+		<string>1</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/y-muen/alfred-markdown-ref</string>
+</dict>
+</plist>
